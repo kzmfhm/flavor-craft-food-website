@@ -1,0 +1,96 @@
+
+/* HYGIENE SECTION */
+#healthySection {
+  padding-top: 0.5%;
+  background-color: #000000;
+  padding-bottom: 4%;
+}
+
+#healthySection .hygiene-title {
+  text-align: center;
+  margin: 50px auto;
+}
+
+#healthySection .hygiene-title span {
+  font-size: 5rem;
+  border: 1px solid #a8763e;
+  background-color: white;
+  color: #a8763e;
+  padding: 1px 5px;
+  font-family: "Roboto";
+}
+
+.eatSure {
+  background-color: #efddc9;
+  border-radius: 22px;
+}
+
+.eatSure .row {
+  width: 100%;
+  padding: 25px 0;
+  margin: auto;
+}
+
+.eatSure .row .col-sm-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+.borderLeft {
+  border-left: 1px solid black;
+}
+
+.icon-wrapper {
+  background-color: #e89b3d;
+  padding: 2px 6px;
+  border-radius: 3px;
+  padding-top: 0;
+}
+
+.eatSure .icon-wrapper svg {
+  width: 10px;
+  height: 10px;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.know-more-btn {
+  padding: 8px 20px;
+  border: 1px solid #e89b3d;
+  border-radius: 30px;
+}
+
+.modal-content {
+  background-color: #ffe6cc;
+}
+
+textarea#address,
+textarea#note {
+  background-color: white;
+  color: black;
+  font-style: italic;
+}
+
+.cartContentDiv h1 {
+  text-align: center;
+}
+
+.know-more-btn:hover {
+  background-color: #e89b3d;
+  color: snow;
+
+  box-shadow: 0 5px 13px rgb(210, 148, 32);
+}
+
+.know-more-btn:focus {
+  background-color: #e89b3d;
+}
+
+
