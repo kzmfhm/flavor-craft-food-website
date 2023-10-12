@@ -1,0 +1,311 @@
+/* CATEGORY SECTION */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#categorySection {
+    padding-top: 1%;
+    background-color: #6f1a07;
+    padding-bottom: 6%;
+    object-fit: cover;
+  }
+  
+  #categorySection .container h1 {
+    text-align: center;
+    margin: 50px auto;
+    object-fit: cover;
+  }
+  .categories{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 600px;
+   gap: 40px;
+  }
+  #categorySection .container h1 span {
+    font-size: 4.5rem;
+    border: 1px solid #a8763e;
+    background-color: white;
+    color: #6f1a07;
+    padding: 1px 5px;
+    font-family: "Roboto";
+    object-fit: cover;
+  }
+  
+  .product-box-layout4 {
+    padding: 30px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 4rem;
+    object-fit: cover;
+  }
+  
+  .product-box-layout4:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: -1;
+    transform: rotate(0deg);
+    object-fit: cover;
+  }
+  
+  .product-box-layout4 .item-figure {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    height: 300px;
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  .item-content .card-title {
+    cursor: pointer;
+  }
+  
+  .product-box-layout4 .item-figure:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(255, 74, 82, 0.8);
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    object-fit: cover;
+  }
+  
+  .product-box-layout4 .item-figure:hover {
+    visibility: visible;
+    opacity: 0.6;
+  }
+  
+  .product-box-layout4 .item-content {
+    text-align: center;
+    padding: 25px 0 0;
+  }
+  
+  .product-box-layout4:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #e4e4e4;
+    z-index: -2;
+    transform: rotate(-3deg);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .product-box-layout4:hover:after {
+    transform: rotate(3deg);
+  }
+  
+  .product-box-layout4.productClicked .item-figure {
+    visibility: visible;
+    opacity: 0.7;
+  }
+   #fastfood{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .row{
+    display: flex;
+    gap: 100px;
+    width: 400px;
+   }
+   .card{
+    border: 3px solid black;
+    margin-left: 60%;
+   }
+  #sweet{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  #pizza{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .item-content h3{
+    font-size: 30px;
+    color: coral;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .menu-heading {
+    margin: 0 auto 40px auto;
+    position: relative;
+  }
+  
+  .menu-heading .col-12 h1 {
+    text-align: center;
+    color: snow;
+  }
+  
+  .menu-heading .col-auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    display: inline-block;
+    width: 100%;
+    padding: 2rem 1rem 5rem 1rem;
+    background-color: #ffe6cc;
+    position: relative;
+    border: none;
+    object-fit: cover;
+  }
+  
+  .card:after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: skyblue;
+    top: 0px;
+    right: 0px;
+    border-bottom: 20px solid #ffdab3;
+    border-left: 20px solid #ffdab3;
+    border-right: 20px solid #6f1a07;
+    border-top: 20px solid #6f1a07;
+    position: absolute;
+    -webkit-filter: drop-shadow(-5px 5px 3px #a6a6a6);
+    filter: drop-shadow(-5px 5px 3px #a6a6a6);
+    object-fit: cover;
+  }
+  
+  .card:before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid #ffdab3;
+    border-right: 30px solid #ffdab3;
+    border-left: 30px solid #6f1a07;
+    border-bottom: 30px solid #6f1a07;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    -webkit-filter: drop-shadow(7px -7px 5px #a6a6a6);
+    filter: drop-shadow(7px -7px 5px #a6a6a6);
+    margin-right: 10%;
+    object-fit: cover;
+  }
+  
+  .food-item-name {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    padding-right: 3px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 0 0.6rem;
+  }
+  
+  .foot-item-hr {
+    border-top: 0.5px solid #efb473;
+    width: 90%;
+    margin: 5px auto;
+  }
+  
+  .veg-icon {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .non-veg-icon {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .text-muted-small {
+    color: #434b52;
+    margin-bottom: 3px;
+    font-size: 0.85rem;
+  }
+  
+  .addCol {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+  }
+  
+  .quantity {
+    background-color: snow;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 22px;
+    width: 22px;
+    margin: auto 8px;
+    padding: 5px;
+  }
+  .checkout-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+    text-align: center;
+  }
+  
+  .checkout-row .know-more-btn {
+    background-color: #ffe6cc;
+    font-size: 1.3rem;
+  }
+ 
+  .menu-heading h3 {
+    margin-left: 16%;
+    text-align: center;
+    margin: 30px auto;
+    border: 2px solid #000; 
+    box-sizing: border-box;
+    padding: 5px 5px;
+    font-size: 2rem;
+    border: 1px solid #540808;
+    background-color: rgb(227, 236, 226);
+    color:#540808;
+    border-radius: 5%;
+    font-family: "Roboto";
+}
+
+
