@@ -1,0 +1,26 @@
+
+.navbar {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    padding: 4px;
+    color: #000000;
+    z-index: 99;
+    margin-top: 4%;
+  
+   
+   
+  }
+  .navbar-text {
+    text-align: center;
+    transition: 0.6s ease-in-out;
+    color: #000000;
+    font-size: large;
+    font-weight: 800;
+  
+  }
