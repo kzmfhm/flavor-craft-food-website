@@ -49,4 +49,17 @@
   .copyright:hover{
     color: aliceblue;
   }
-  
+  @media screen and (max-width: 600px) {
+    .footer-h2 h2  {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      }
+      .social-media{
+        padding-right: 1%;
+      }
+      .social-media-icon{
+        margin-bottom: 30%;
+        font-size: 0.5rem;
+      
+      }
+    } 
