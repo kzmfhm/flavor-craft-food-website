@@ -4,7 +4,8 @@ const PrivacySection  = () => {
   return (
     <div> 
     <div class="container" style={{"padding-top": "4vh"}}>
-      <h2>Privacy & Policies</h2>
+      <div className='h2-div'>
+      <h2>Privacy & Policies</h2></div>
       <div class="content">
         <ul class="text-white">
           <h3>Your Privacy</h3>

@@ -9,7 +9,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <div id="footer">
-      <div className="container">
+      
         <div className='footer-h2'>
         <h2>FlavorCraft</h2></div>
         <div className="col-3 social-media">
@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
             </Link>
           </div>
-        </div>
+     
 
         <div className="contact-row">
           <p>

@@ -5,7 +5,9 @@ const TermsConditions = () => {
     <div>
    
     <div class="container" style={{"padding-top": "4vh"}}>
+    <div className='h2-div'>
       <h2>Terms & Conditions</h2>
+      </div>
       <div class="content">
         <ul class="text-white">
           <li>

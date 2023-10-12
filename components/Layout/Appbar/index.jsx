@@ -3,28 +3,19 @@ import { useRouter } from "next/router";
 import './style.css';
 import  Header from '../Header';
 
-
 const Appbar = () => {
-
-  const router = useRouter();
-
-  const handlePageClose = () => {
+    const router = useRouter();
+    const handlePageClose = () => {
     router.push("/");
   };
 
   return (
-   
-      <div className="app-bar" >
+    <div className="app-bar" >
         <div className='logo' onClick={handlePageClose}>
       <Header/>
         </div>
-     
-        <CloseIcon/>
+     <CloseIcon/>
       </div>
-  
-      
-      
-  
   );
 };
 

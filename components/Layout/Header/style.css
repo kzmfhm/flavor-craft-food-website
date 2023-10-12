@@ -1,10 +1,11 @@
 .header{
    width: 200px;
     margin-top: 80px;
-    color: black;
+    background: none;
     position: fixed;
     z-index: 99;
     height: 50px;
+    box-shadow: none;
 }
 .header h1{
     color: #ffc107;
@@ -20,12 +21,8 @@
 
 @media screen and (max-width: 600px) {
     .header {
-        margin-top: 5px;
-        margin-left: 20px;
-        border-bottom: 1px solid gray;
+        margin-top: 30px;
+        margin-left: -40px;
         width: 90%;
-
+      }
     }
-  
-  
-  }
