@@ -7,11 +7,11 @@
 }
 .home-container {
     height: 100vh;
-    width: 132vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
     background-color: #ffa5d8;
-    margin-top: -2%;
+    margin-top: 1.5%;
     overflow-x: hidden;
   }
   
