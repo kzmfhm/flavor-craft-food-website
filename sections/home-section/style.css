@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+ 
 }
 .home-container {
     height: 100vh;
@@ -11,6 +12,7 @@
     justify-content: center;
     background-color: #ffa5d8;
     margin-top: -2%;
+    overflow-x: hidden;
   }
   
   #homeSection {

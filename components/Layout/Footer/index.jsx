@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
             </Link>
            
-            <Link href="" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/kzmfhm/flavor-craft-food-website" target="_blank" rel="noopener noreferrer">
             <div className="social-media-icon">
                 <span><Image src={githubImage} alt='github' width={40}></Image></span>
               </div>
