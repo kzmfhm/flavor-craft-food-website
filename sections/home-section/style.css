@@ -22,14 +22,27 @@
     margin-top: 10%;
   }
   
-  .homeRow {
+  .home-row {
     width: 100%;
     margin: auto;
     display: flex;
   }
-  
+  @media screen and (max-width: 600px){
+      
+  .home-row {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    margin-left: 6%;
+    height: 400px;
+   
+  }
+  .homeImgCol {
+    margin-top: -30%;
+  }
+  }
 
-  .homeTxtCol {
+  .home-txt-col {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -39,13 +52,13 @@
     text-align: left;
   }
   
-  .homeHeading {
+  .home-heading {
     font-size: 3.4rem;
     line-height: 1.3em;
   }
   
 
-  .homeHeading span {
+  .home-heading span {
     color: black;
     -webkit-text-stroke: 0.14vw rgb(44, 42, 42);
     letter-spacing: 2px;
@@ -55,7 +68,7 @@
     animation: textAnimate 5s infinite alternate;
   }
   
-  .homeHeading span::before {
+  .home-heading span::before {
     content: attr(data-text);
     position: absolute;
     top: 0;
@@ -83,7 +96,7 @@
   }
   
 
-  .homeBtn {
+  .home-btn {
     text-decoration: none;
     font-weight: normal;
     transition: all 0.2s ease-in-out;
@@ -95,7 +108,7 @@
     padding: 5px;
   } 
    
-  .homeBtn:hover {
+  .home-btn:hover {
     box-shadow: 0 5px 15px rgb(255, 60, 60);
     background-color: transparent;
     color: rgb(246, 34, 34);

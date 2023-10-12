@@ -7,17 +7,17 @@ const HomeSection = () => {
   return (
     <div className="container home-container">
       <div id="homeSection" className="d-flex justify-content-center">
-        <div className="row homeRow">
-          <div className="col-lg-6 homeTxtCol">
-            <h1 className="homeHeading">
+        <div className="row home-row">
+          <div className="col-lg-6 home-txt-col">
+            <h1 className="home-heading">
               Where the Flavor <br />
               <span data-text="INEBRIATES">INEBRIATES</span>
               <br />
               you
             </h1>
             <br />
-            <div className="homeBtnDiv">
-              <a href="#categorySection" className="btn homeBtn">
+            <div className="home-btn-div">
+              <a href="#categorySection" className="btn home-btn">
                 Order Now
               </a>
             </div>
