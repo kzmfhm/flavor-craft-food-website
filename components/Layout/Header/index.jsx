@@ -5,9 +5,12 @@ import './style.css'
 const Header = () => {
   return (
     <div style={{ display: 'flex', alignItems: 'center' }}>
-     <h1 className='header'>
-       Flavor Craft
+     <div className='header'>
+      <h1>
+        FlavorCraft
       </h1>
+      
+      </div>
     </div>
   );
 }

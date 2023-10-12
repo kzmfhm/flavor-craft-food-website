@@ -10,7 +10,8 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="container">
-        <h2>FlavorCraft</h2>
+        <div className='footer-h2'>
+        <h2>FlavorCraft</h2></div>
         <div className="col-3 social-media">
             <Link href="https://www.facebook.com/">
               <div className="social-media-icon">

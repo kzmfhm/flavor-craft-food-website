@@ -1,7 +1,7 @@
 import CloseIcon from '../../Buttons/Close';
 import { useRouter } from "next/router";
 import './style.css';
-
+import  Header from '../Header';
 
 
 const Appbar = () => {
@@ -16,7 +16,7 @@ const Appbar = () => {
    
       <div className="app-bar" >
         <div className='logo' onClick={handlePageClose}>
-      flavor craft
+      <Header/>
         </div>
      
         <CloseIcon/>

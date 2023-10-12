@@ -1,11 +1,23 @@
 .header{
-    margin-left: 25px;
-    margin-top: 50px;
+   width: 200px;
+    margin-top: 80px;
     color: black;
     position: fixed;
-
     z-index: 99;
+    height: 50px;
 }
+.header h1{
+    color: #ffc107;
+      font-family: "elinga", "Roboto";
+      font-weight: 600;
+      font-size: 2rem;
+      margin-left: 10%;
+    
+    }
+    h1:hover{
+        color: aliceblue;
+      }    
+
 @media screen and (max-width: 600px) {
     .header {
         margin-top: 5px;
