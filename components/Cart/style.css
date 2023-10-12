@@ -1,0 +1,106 @@
+.payment-card{
+    width: 500px;
+    height: 550px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 33%;
+    background-color:  #ffdab3;
+   z-index: 99;
+   margin-top: 5%;
+   }
+    .modal-header{
+      display: flex;
+      gap: 420px;
+      border-bottom: 1px solid lightslategray;
+      height: 50px;
+      font-weight: 600;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+    .modal-title{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .payment-info {
+        display: flex;
+        align-items: center; 
+        margin-left: 10px;
+      }
+      
+      .green-icon {
+        color: darkgreen;
+        font-size: 20px;
+        margin-right: 5px;
+        margin-top: -10px;
+      }
+      
+      
+    .cart-content-div{
+      margin-top: 40px;
+      font-size: 30px;
+      font-family: sans-serif;
+      font-weight: 600;
+    }
+    .user-info-div{
+      margin-top: 20px;
+    }
+    .user-info-div label{
+      margin-top: 20px;
+    }
+    textarea{
+      width: 480px;
+      border-radius: 3px;
+      margin-left: 4%;
+    }
+    .modal-footer{
+      margin-top: 10%;
+      margin-left: 50%;
+      gap: 30px;
+    }
+    .modal-footer button{
+     gap: 30px;
+    }
+    .clear-btn{
+      text-decoration: none;
+      font-weight: normal;
+      transition: all 0.2s ease-in-out;
+      width: auto;
+      font-size: 1.2rem;
+      border-radius: 24px;
+      background-color: #872813;
+      color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      z-index: 99;
+      margin-bottom: 20px;
+     
+    }
+    .clear-btn:hover{
+    box-shadow: 0 5px 15px rgb(255, 60, 60);
+    background-color: transparent;
+    color: rgb(246, 34, 34);
+    border: 1px solid rgb(246, 34, 34);
+    transition: 0.8s;
+    box-shadow: rgb(246, 34, 34);
+    }
+    .order-btn{
+      text-decoration: none;
+      font-weight: normal;
+      transition: all 0.2s ease-in-out;
+      width: auto;
+      font-size: 1.2rem;
+      border-radius: 24px;
+      background-color: rgb(167, 201, 117);
+      color: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      z-index: 99;
+      margin-bottom: 20px;
+     margin-left: 20px;
+    }
+    .order-btn:hover{
+    box-shadow: 0 5px 15px rgb(255, 60, 60);
+    background-color: transparent;
+    color: rgb(246, 34, 34);
+    border: 1px solid rgb(246, 34, 34);
+    transition: 0.8s;
+    box-shadow: rgb(246, 34, 34);
+    }
