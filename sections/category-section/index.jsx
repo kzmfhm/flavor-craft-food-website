@@ -4,7 +4,7 @@ import './style.css';
 import FastFood from './fastFood';
 import Pizza from './pizza'
 import Sweet from './sweet'
-import ScrollUp from '../../components/Buttons/ScrollUp'
+
 const CategorySection = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const categoryRef = useRef(null);
@@ -22,6 +22,7 @@ const CategorySection = () => {
   };
 
   return (
+ 
     <div id="categorySection" className="py-8">
       <div className="container mx-auto">
         <h1 className="text-3xl font-bold mb-6">
@@ -88,15 +89,16 @@ const CategorySection = () => {
         </div>
        
       </div>
-      <ScrollUp/>
+     
       <div ref={categoryRef}>
         {selectedCategory === 'fastfood' && <FastFood />}
         {selectedCategory === 'sweet' && <Sweet />}
         {selectedCategory === 'pizza' && <Pizza />}
-        <ScrollUp/>
+       
       </div>
-     
+      
     </div>
+  
   );
 };
 

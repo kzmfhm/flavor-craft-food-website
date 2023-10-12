@@ -1,12 +1,15 @@
 .scroll-up{
     margin-left: 96%;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     border-radius: 100%;
-    background-color: chocolate;
+    background-color: rgb(236, 231, 227);
     justify-content: center;
     align-items: center;
-    border: 3px solid darkred;
-    padding: 7px;
-    margin-top: -100%;
+    border: 1px solid darkred;
+    padding: 6px;
+    margin-bottom: -35%;
+}
+.scroll-up:hover{
+    background-color: darkgoldenrod;
 }
