@@ -1,0 +1,28 @@
+.safety-measures-div {
+    margin: 3% auto;
+    text-align: center;
+    color: snow;
+  }
+  
+  .safety-measures-div .safety-measures-para {
+    font-size: 1.1rem;
+  }
+  .safety-measures-div .safety-measures-para:hover {
+    color: #ffc107;
+    transition: 0.3s ease-in-out;
+  }
+  .safety-measures {
+    margin: 3% auto;
+  }
+  
+  .safety-measures .col-sm-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .safety-measures .col-sm-3 p {
+    margin-top: 10px;
+  }
