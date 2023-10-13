@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import foodImage from '../../public/images/pasta.jpg';
+import foodImage from '../../public/images/pasta.png';
 
 import './style.css'
 const HomeSection = () => {
@@ -23,7 +23,7 @@ const HomeSection = () => {
             </div>
           </div>
           <div className="col-lg-6 homeImgCol">
-            <Image src={foodImage} alt="food" className="homeImg" width={300}/>
+            <Image src={foodImage} alt="food" className="homeImg" width={500}/>
           </div>
         </div>
       </div>

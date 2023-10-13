@@ -11,8 +11,7 @@ const Cart = () => {
 
   return isVisible ? ( 
     <div className='payment-card'>
-     
-        <div className="modal-header">
+     <div className="modal-header">
           <h5 className="modal-title">
             Cart
           </h5>
@@ -28,19 +27,19 @@ const Cart = () => {
 
         <div className="modal-body">
           <div className="cart-row">
-            <div className="col payment-info">
+            <div className="payment-info">
               <span className="check-icon">
                 <i className="fas fa-check-circle green-icon"></i>
               </span>
               Select Menu
             </div>
-            <div className="col payment-info">
+            <div className="payment-info">
               <span className="check-icon">
                 <i className="fab fa-whatsapp green-icon"></i>
               </span>
               Place order via Whatsapp
             </div>
-            <div className="col payment-info">
+            <div className="payment-info">
               <span className="check-icon">
                 <i className="fab fa-google-pay green-icon"></i>
               </span>
