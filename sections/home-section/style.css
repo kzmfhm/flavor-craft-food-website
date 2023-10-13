@@ -53,9 +53,9 @@
     color: rgba(255, 255, 255, 0.8);
     padding: 5px;
     z-index: 1000;
-    margin-top: 300px;
+    margin-top: 50px; /* Adjust the margin-top value */
   } 
-   
+
   .home-btn:hover {
     box-shadow: 0 5px 15px rgb(255, 60, 60);
     background-color: transparent;

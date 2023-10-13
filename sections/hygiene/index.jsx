@@ -116,7 +116,7 @@ const Hygiene = () => {
 
           <div class="col-sm-2 col-12 borderLeft">
             <a
-              href="https://eatsure.com/"
+              href="/"
               target="_blank"
               class="btn know-more-btn"
               >Know More</a
