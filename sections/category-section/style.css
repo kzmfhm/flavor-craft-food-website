@@ -41,8 +41,59 @@
     }
     .categories{
       display: grid;
+      z-index: 1;
     }
-    
+    #fastfood{
+      width: 80%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      margin-left: 18%;
+      display: grid;
+    }
+    #sweet{
+      width: 80%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      margin-left: 18%;
+      display: grid;
+    }
+    #pizza{
+      width: 80%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      margin-left: 18%;
+      display: grid;
+    } 
+    #fastfood .row .card{
+      display: grid;
+      gap: 50px;
+      width: 350px;
+      z-index: 1000;
+      margin-top: 900px;
+      margin-right: 20%;
+    }
+    #pizza .row .card{
+      display: grid;
+      gap: 50px;
+      width: 350px;
+      z-index: 1000;
+      margin-top: 900px;
+      margin-right: 20%;
+    }
+    #sweet .row .card{
+      display: grid;
+      gap: 50px;
+      width: 350px;
+      z-index: 1000;
+      margin-top: 900px;
+      margin-right: 20%;
+    }
+    .card-body{
+      width: 340px;
+    }
   }
   .product-box-layout4 {
     padding: 30px;
@@ -304,7 +355,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 23%;
+    margin-right: 17%;
     margin-top: 5%;
   }
   

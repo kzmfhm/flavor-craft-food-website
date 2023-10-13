@@ -314,7 +314,7 @@ const FastFood = () => {
               </div>
             </div>
 
-            <div className="row checkout-row" ref={cartRef}>
+            <div className="checkout-row" ref={cartRef}>
               <button
                 type="button"
                 class="btn know-more-btn"

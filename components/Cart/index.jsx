@@ -11,7 +11,7 @@ const Cart = () => {
 
   return isVisible ? ( 
     <div className='payment-card'>
-      <div>
+     
         <div className="modal-header">
           <h5 className="modal-title">
             Cart
@@ -27,7 +27,7 @@ const Cart = () => {
         </div>
 
         <div className="modal-body">
-          <div className="row">
+          <div className="cart-row">
             <div className="col payment-info">
               <span className="check-icon">
                 <i className="fas fa-check-circle green-icon"></i>
@@ -73,17 +73,17 @@ const Cart = () => {
 
         <div className="modal-footer">
           <a
-            className="clear-btn"
+            className="btn clear-btn"
             onClick={handleClose}
           >
             Clear Cart
           </a>
-          <a className="order-btn">
+          <a className="btn order-btn">
             Order Now
           </a>
         </div>
       </div>
-    </div>
+   
   ) : null;
 }
 
