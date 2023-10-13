@@ -35,7 +35,15 @@
     font-family: "Roboto";
     object-fit: cover;
   }
+  @media  screen and (max-width:600px) {
+    #categorySection .container h1 span{
+      font-size: 2.5rem;
+    }
+    .categories{
+      display: grid;
+    }
   
+  }
   .product-box-layout4 {
     padding: 30px;
     background-color: #ffffff;

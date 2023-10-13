@@ -26,7 +26,7 @@ const Pizza = () => {
             <h3>Pizza Shop</h3>
             </div>
             <div class="row">
-              <div class="col-sm-6 col-12">
+            <div class="col-sm-6 col-12">
                 <div class="card">
                   <h2 class="card-title">Soups</h2>
                   <div class="card-body">
