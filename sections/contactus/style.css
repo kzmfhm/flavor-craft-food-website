@@ -4,9 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-html,body{
-  overflow: hidden;
-}
+
 .icon img {
   width: 3rem;
   height: auto;
