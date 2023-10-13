@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`w-full h-14 pt-[10px] bg-black-400 flex justify-between items-center md:px-4 ${showMobileMenu ? 'mt-[0px]' : ''}`}>
+    <nav className={`w-full h-14 pt-[10px] bg-black-400 flex justify-between items-center md:px-4 ${showMobileMenu ? 'rounded mt-[20px] ml-[280px] w-[100px] h-auto border border-gray-500' : ''}`}>
       <div className="text-3xl font-bold mt-[20px] sticky top-0"></div>
       <div className={`md:hidden text-yellow-700 ${showMobileMenu ? 'hidden' : 'ml-[0px]'}`}>
         <Link className="text-4xl menu-icons" href="#" onClick={toggleMobileMenu}>

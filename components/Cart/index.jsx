@@ -60,7 +60,7 @@ const Cart = () => {
               ></textarea>
             </div>
             <div className="mb-3 px-2">
-              <label htmlFor="note">Note (optional)</label> <br />
+              <label htmlFor="note">Write down your Menu</label> <br />
               <textarea
                 type="text"
                 className="form-control"
