@@ -33,9 +33,9 @@ const ScrollUp = () => {
   };
 
   return (
-    <div>
+    <div className='scroll-up'>
       {isVisible && (
-        <button className='scroll-up' onClick={scrollToTop}>
+        <button className='scroll' onClick={scrollToTop}>
           <Image src={ScrollUpImage} alt='Scroll Up' />
         </button>
       )}

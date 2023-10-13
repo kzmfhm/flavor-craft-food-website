@@ -8,8 +8,14 @@
     align-items: center;
     border: 1px solid darkred;
     padding: 6px;
-    margin-bottom: -35%;
+   
 }
 .scroll-up:hover{
     background-color: rgb(179, 145, 60);
+}
+@media screen and (max-width:600px){
+    .scroll-up {
+       margin-left: 360px;
+        z-index: 1000;
+    } 
 }

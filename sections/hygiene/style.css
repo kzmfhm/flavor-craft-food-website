@@ -92,5 +92,11 @@ textarea#note {
 .know-more-btn:focus {
   background-color: #e89b3d;
 }
-
+@media screen and (max-width:600px){
+  #healthySection {
+    margin-top: 0%;
+  
+   
+  }
+}
 

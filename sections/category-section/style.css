@@ -42,6 +42,7 @@
     .categories{
       display: grid;
       z-index: 1;
+      height: auto;
     }
     #fastfood{
       width: 80%;
@@ -72,7 +73,7 @@
       gap: 50px;
       width: 350px;
       z-index: 1000;
-      margin-top: 900px;
+     
       margin-right: 20%;
     }
     #pizza .row .card{
@@ -80,7 +81,7 @@
       gap: 50px;
       width: 350px;
       z-index: 1000;
-      margin-top: 900px;
+   
       margin-right: 20%;
     }
     #sweet .row .card{
@@ -88,12 +89,25 @@
       gap: 50px;
       width: 350px;
       z-index: 1000;
-      margin-top: 900px;
       margin-right: 20%;
     }
     .card-body{
       width: 340px;
     }
+    .menu-heading h3 {
+      text-align: center;
+      border: 2px solid #000; 
+      box-sizing: border-box;
+      padding: 5px 5px;
+      font-size: 2rem;
+      border: 1px solid #540808;
+      background-color: rgb(227, 236, 226);
+      color:#540808;
+      border-radius: 5%;
+      font-family: "Roboto";
+      margin-left: 65px;
+  }
+  
   }
   .product-box-layout4 {
     padding: 30px;
