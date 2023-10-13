@@ -1,7 +1,7 @@
 "use client"
 import Link from 'next/link';
 import { useState } from 'react';
-import './style.css';
+
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
