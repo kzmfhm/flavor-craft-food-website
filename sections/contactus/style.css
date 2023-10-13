@@ -1,13 +1,11 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+html,body{
   overflow: hidden;
-
-
 }
 .icon img {
   width: 3rem;
@@ -17,10 +15,7 @@
   width: 3rem;
   height: auto;
 }
-
-
 .contact {
-
   position: relative;
   min-height: 100hv;
   padding: 50px 100px;
@@ -153,4 +148,25 @@
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+ 
+  #contactus-container {
+    display: grid;
+  }
+  .contact .content h2,
+  .contact .content p {
+    display: none;
+  }
+
+  .container .contact-info {
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+  }
 }
