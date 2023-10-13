@@ -11,7 +11,7 @@ const ContactUs = () => {
         <p>We would love to hear from you!</p>
       </div>
       <div id="contactus-container" className="container">
-        <div className="contactInfo">
+        <div className="contact-info">
           <div className="box">
             <div className="icon">
               <i><img src="svg/map.svg" alt="map-gif" /></i>
@@ -43,22 +43,22 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="contactForm">
+        <div className="contact-form">
           <form action="">
             <h2>Send Message</h2>
-            <div className="inputBox">
+            <div className="input-box">
               <input type="text" name="" required="required" />
               <span>Full name</span>
             </div>
-            <div className="inputBox">
+            <div className="input-box">
               <input type="text" name="" required="required" />
               <span>Email</span>
             </div>
-            <div className="inputBox">
+            <div className="input-box">
               <textarea required="required"></textarea>
               <span>Type Your Message ...</span>
             </div>
-            <div className="inputBox">
+            <div className="input-box">
               <input type="submit" name="" value="Send" />
             </div>
           </form>
