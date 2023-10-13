@@ -42,7 +42,7 @@
     .categories{
       display: grid;
     }
-  
+    
   }
   .product-box-layout4 {
     padding: 30px;
@@ -135,35 +135,45 @@
     opacity: 0.7;
   }
    #fastfood{
-    width: 100%;
+    width: 80%;
     height: auto;
     justify-content: center;
     align-items: center;
-   
+    margin-left: 18%;
   }
-  .row{
+  #sweet{
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+  }
+  #pizza{
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+  }
+  #fastfood .row{
     display: flex;
     gap: 100px;
     width: 400px;
-   }
-   .card{
-    border: 3px solid black;
-    margin-left: 60%;
-   }
-  #sweet{
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-  
+    
   }
-  #pizza{
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-  
+  #pizza .row{
+    display: flex;
+    gap: 100px;
+    width: 400px;
   }
+  #sweet .row{
+    display: flex;
+    gap: 100px;
+    width: 400px;
+  }
+
+ 
+
   .item-content h3{
     font-size: 30px;
     color: coral;
@@ -293,8 +303,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px auto 0;
     text-align: center;
+    margin-left: 23%;
+    margin-top: 5%;
   }
   
   .checkout-row .know-more-btn {
@@ -303,9 +314,7 @@
   }
  
   .menu-heading h3 {
-    margin-left: 16%;
     text-align: center;
-    margin: 30px auto;
     border: 2px solid #000; 
     box-sizing: border-box;
     padding: 5px 5px;

@@ -2,7 +2,7 @@
    width: 200px;
     margin-top: 80px;
     background: none;
-    position: fixed;
+    position: absolute;
     z-index: 99;
     height: 50px;
     box-shadow: none;

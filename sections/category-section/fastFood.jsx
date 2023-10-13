@@ -26,7 +26,7 @@ const FastFood = () => {
             <h3>Fast Food Shop</h3>
             </div>
             <div class="row">
-              <div class="col-sm-6 col-12">
+             <div class="col-sm-6 col-12">
                 <div class="card">
                   <h2 class="card-title">Steamed fastfood</h2>
                   <div class="card-body">
@@ -326,7 +326,7 @@ const FastFood = () => {
               </button>
             </div>
           </div>
-       
+         
           {showCart && <Cart />}
            </div>
         )
