@@ -24,14 +24,14 @@ const Navbar = () => {
        <div className="text-3xl font-bold mt-[20px] sticky top-0">
       
       </div>
-      <div className={`md:hidden text-yellow-700 ${showMobileMenu ? 'hidden' : 'ml-[0px]'}`}>
+      <div className={`md:hidden text-red-400 ${showMobileMenu ? 'hidden' : 'ml-[0px]'}`}>
         <Link className="text-4xl menu-icons" href="#" onClick={toggleMobileMenu}>
         <Image src={openMenu} alt='open' className='open' width={30}></Image>
         
         </Link>
       </div>
       <ul
-        className={`font-bold text-yellow-700 md:flex ${
+        className={`font-bold text-red-400 md:flex ${
           showMobileMenu ? 'grid' : 'hidden'
         } md:block`}
       >
