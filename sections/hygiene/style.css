@@ -4,6 +4,7 @@
   padding-top: 0.5%;
   background-color: #000000;
   padding-bottom: 4%;
+  
 }
 
 #healthySection .hygiene-title {
@@ -23,12 +24,14 @@
 .eatSure {
   background-color: #efddc9;
   border-radius: 22px;
+  color: #000000;
 }
 
 .eatSure .row {
   width: 100%;
   padding: 25px 0;
   margin: auto;
+  color: #000000;
 }
 
 .eatSure .row .col-sm-2 {
@@ -39,6 +42,7 @@
   text-align: center;
   font-size: 0.9rem;
   padding: 10px;
+  color: #000000;
 }
 
 .borderLeft {
@@ -50,6 +54,7 @@
   padding: 2px 6px;
   border-radius: 3px;
   padding-top: 0;
+  color: #000000;
 }
 
 .eatSure .icon-wrapper svg {
@@ -59,6 +64,7 @@
 
 .text {
   margin-top: 10px;
+  color: #000000;
 }
 
 .know-more-btn {
@@ -69,6 +75,7 @@
 
 .modal-content {
   background-color: #ffe6cc;
+  color: #000000;
 }
 
 textarea#address,

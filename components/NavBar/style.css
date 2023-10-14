@@ -1,0 +1,14 @@
+.top{
+    margin-top: -80px;
+    cursor: pointer;
+}
+.open{
+    margin-right: 10px;
+    cursor: pointer;
+}
+@media  screen and (max-width:912px) {
+    .top{
+        margin-top: -20px;
+        margin-left: 20px;
+    }  
+}
