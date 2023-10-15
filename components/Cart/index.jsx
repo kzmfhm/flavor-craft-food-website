@@ -1,12 +1,34 @@
-import { useState } from 'react';  
+import React, { useState } from 'react';
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 const Cart = () => {
-  const [isVisible, setIsVisible] = useState(true);  
+  const [isVisible, setIsVisible] = useState(true);
+  const [address, setAddress] = useState('');
+  const [menu, setMenu] = useState('');
 
   const handleClose = () => {
-    setIsVisible(false);  
+    setIsVisible(false);
+  };
+
+  const handleAddressChange = (event) => {
+    setAddress(event.target.value);
+  };
+
+  const handleMenuChange = (event) => {
+    setMenu(event.target.value);
+  };
+
+  const handleOrderNow = () => {
+    
+    if (address.trim() === '' || menu.trim() === '') {
+      alert('Please fill in the required fields (Address and Menu).');
+    } else {
+     
+      alert('Order placed successfully!');
+      
+      handleClose(); 
+    }
   };
 
   return isVisible ? ( 
@@ -57,14 +79,16 @@ const Cart = () => {
                 type="text"
                 className="form-control"
                 id="address"
+                onChange={handleAddressChange} 
               ></textarea>
             </div>
             <div className="mb-3 px-2">
-              <label htmlFor="note">Write down your Menu</label> <br />
+              <label htmlFor="note">Write down your Menu *</label> <br />
               <textarea
                 type="text"
                 className="form-control"
                 id="note"
+                onChange={handleMenuChange}  
               ></textarea>
             </div>
           </div>
@@ -77,7 +101,7 @@ const Cart = () => {
           >
             Clear Cart
           </a>
-          <a className="btn order-btn">
+          <a className="btn order-btn" onClick={handleOrderNow}>
             Order Now
           </a>
         </div>

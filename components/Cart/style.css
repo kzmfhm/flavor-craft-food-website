@@ -5,8 +5,8 @@
     border-radius: 5px;
     margin-left: 35%;
     background-color:  #ffdab3;
-   z-index: 99;
-   margin-top: 5%;
+    z-index: 99;
+    margin-top: 5%;
    }
     .modal-header{
       display: flex;
@@ -78,15 +78,16 @@
       padding: 10px;
       z-index: 99;
       margin-bottom: 20px;
-     
+      cursor: pointer;
     }
     .clear-btn:hover{
-    box-shadow: 0 5px 15px rgb(255, 60, 60);
-    background-color: transparent;
-    color: rgb(246, 34, 34);
-    border: 1px solid rgb(246, 34, 34);
-    transition: 0.8s;
-    box-shadow: rgb(246, 34, 34);
+      box-shadow: 0 5px 15px rgb(255, 60, 60);
+      background-color: transparent;
+      color: rgb(246, 34, 34);
+      border: 1px solid rgb(246, 34, 34);
+      transition: 0.8s;
+      box-shadow: rgb(246, 34, 34);
+      cursor: pointer;
     }
     .order-btn{
       text-decoration: none;
@@ -100,15 +101,17 @@
       padding: 10px;
       z-index: 99;
       margin-bottom: 20px;
-     margin-left: 20px;
+      margin-left: 20px;
+      cursor: pointer;
     }
     .order-btn:hover{
-    box-shadow: 0 5px 15px rgb(255, 60, 60);
-    background-color: transparent;
-    color: rgb(246, 34, 34);
-    border: 1px solid rgb(246, 34, 34);
-    transition: 0.8s;
-    box-shadow: rgb(246, 34, 34);
+      box-shadow: 0 5px 15px rgb(255, 60, 60);
+      background-color: transparent;
+      color: rgb(246, 34, 34);
+      border: 1px solid rgb(246, 34, 34);
+      transition: 0.8s;
+      box-shadow: rgb(246, 34, 34);
+      cursor: pointer;
     }
   @media screen and (max-width:600px) {
     .payment-card{
