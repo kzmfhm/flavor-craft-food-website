@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-## About The Project💥
+## 💥About The Project
 
 Live Preview👉: [https://flavor-craft-food-website.vercel.app/](https://flavor-craft-food-website.vercel.app/)
 
@@ -13,7 +13,7 @@ Live Preview👉: [https://flavor-craft-food-website.vercel.app/](https://flavor
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-## Getting Started📃
+## 📃Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 3. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## How to Run 🚀
+## 🚀How to Run
 
 First, run the development server:
 
