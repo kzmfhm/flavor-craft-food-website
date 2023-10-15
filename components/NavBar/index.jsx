@@ -21,9 +21,7 @@ const Navbar = () => {
   return (
     <nav className={`w-full h-14 pt-[10px] bg-black-400 flex justify-between items-center md:px-4 ${showMobileMenu ? 'mt-[0px] ' : ''}`}>
       <div className='top'><Header/></div> 
-       {/* <div className="text-3xl font-bold mt-[20px] sticky top-0">
       
-      </div> */}
       <div className={`md:hidden text-red-400 ${showMobileMenu ? 'hidden' : 'ml-[0px]'}`}>
         <Link className="text-4xl menu-icons" href="#" onClick={toggleMobileMenu}>
         <Image src={openMenu} alt='open' className='open' width={30}></Image>
@@ -32,7 +30,7 @@ const Navbar = () => {
       </div>
       <ul
         className={`font-bold text-red-400 md:flex ${
-          showMobileMenu ? 'grid bg-black' : 'hidden'
+          showMobileMenu ? 'grid' : 'hidden'
         } md:block`}
       >
         <li
