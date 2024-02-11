@@ -14,7 +14,7 @@ const TermsConditions = () => {
             All customers are subject to the
             <u>terms and conditions</u> contained below. The below conditions
             are terms of legal contract between Flavor craft and the customer under
-            <u>The Indian Contract Act 1872</u>.
+            <u>The pakistani Contract Act 1872</u>.
           </li>
           <li>
             The customers are free to make <u>their own menu</u> from our
